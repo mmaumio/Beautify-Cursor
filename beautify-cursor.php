@@ -37,7 +37,7 @@ function btfc_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'btfc_enqueue_scripts' );
 
 
-function xr_framework_init() {
+function xeroft_framework_init() {
 	include 'framework/functions/enqueue.php';
 	include 'framework/classes/xr.abstract.class.php';
 	include 'framework/functions/helper.php';
@@ -47,7 +47,7 @@ function xr_framework_init() {
 	load_plugin_textdomain( 'beautify-cursor', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 
 }
-add_action('init', 'xr_framework_init');
+add_action('init', 'xeroft_framework_init');
 
 
 function btfc_enequeue_custom_style() { 
@@ -71,6 +71,3 @@ function btfc_enequeue_custom_style() {
 }
 
 add_action( 'wp_head', 'btfc_enequeue_custom_style' );
-
-
-

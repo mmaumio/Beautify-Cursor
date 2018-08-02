@@ -58,8 +58,8 @@ class Xeroft_Framework extends Xeroft_Framework_Helper {
     * Constructor Method of Class Xeroft_Framework
     */
     public function __construct( $settings, $options ) {
-        $this->settings = apply_filters( 'xr_framework_settings', $settings);
-        $this->options = apply_filters( 'xr_framework_options', $options);
+        $this->settings = apply_filters( 'xeroft_framework_settings', $settings);
+        $this->options = apply_filters( 'xeroft_framework_options', $options);
 
         if ( ! empty($this->options) ) {
             $this->sections   = $this->get_section();

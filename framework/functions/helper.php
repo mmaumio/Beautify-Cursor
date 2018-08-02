@@ -12,7 +12,9 @@ if ( ! defined('ABSPATH') ) die;
 
 class Xeroft_Framework_Helper extends Xeroft_Framework_Abstract {
 	
-	public function __construct() {}
+	public function __construct() {
+        
+    }
 
 	// Checked Helper function
     public function checked( $checked, $current = true, $echo = true ) {

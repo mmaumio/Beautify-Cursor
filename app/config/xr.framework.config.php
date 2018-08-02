@@ -56,5 +56,4 @@ $options[] = array(
     );
 
 
-
 Xeroft_Framework::instance( $settings, $options );
