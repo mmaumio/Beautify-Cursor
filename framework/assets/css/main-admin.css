@@ -1,0 +1,25 @@
+.xr-image-prev {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+	height: 200px;
+}
+
+.wrap .form-table th {
+	width: auto;
+}
+.form-table td p {
+	margin-bottom: 10px;
+}
+
+.xr-image-select img {
+	vertical-align: middle;
+}
+
+span.image-select-wrapper {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
